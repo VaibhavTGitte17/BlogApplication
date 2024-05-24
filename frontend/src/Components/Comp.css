@@ -1,0 +1,29 @@
+.navbar li:hover {
+    background-color: rgb(3, 5, 121);
+    color: rgb(238, 27, 27);
+    border-radius: 14px;
+}s
+
+
+.fixed-height-card {
+    height: 500px; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fixed-height-card .card-body {
+    overflow-y: auto;
+    flex-grow: 1;
+  }
+  
+  .fixed-height-card .card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+ 
+.active-link {
+  background-color: rgb(255, 128, 0);
+  color: white; 
+  border-radius: 4px; 
+}
